@@ -1,0 +1,16 @@
+{
+    "name": "PlayableDesign.Engine.Editor",
+    "references": [
+        "PlayableDesign.Engine"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
