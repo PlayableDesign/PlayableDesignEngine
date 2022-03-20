@@ -6,7 +6,6 @@ namespace PlayableDesign
     public class ExtendedBehavior : MonoBehaviour
     {
 
-        // ------------------------------------------------------------------------------------------------------------------------
         #region CONSTANTS
 
         private const string DEBUG_LOG = "<color=#{0}><b>{1}</b>: {2}</color>";
@@ -14,7 +13,6 @@ namespace PlayableDesign
 
         #endregion
 
-        // ------------------------------------------------------------------------------------------------------------------------
         #region INSPECTOR
 
         [Header("Logging")]
@@ -30,14 +28,12 @@ namespace PlayableDesign
 
         #endregion
 
-        // ------------------------------------------------------------------------------------------------------------------------
         #region PRIVATE STATE
 
         public string _htmlColor;
 
         #endregion
 
-        // ------------------------------------------------------------------------------------------------------------------------
         #region LIFECYCLE
 
         private void Awake()
@@ -47,9 +43,7 @@ namespace PlayableDesign
 
         #endregion
 
-        // ------------------------------------------------------------------------------------------------------------------------
         #region METHODS
-
         protected void LogInfo(string message)
         {
             if (enableLog) Debug.LogFormat(gameObject, DEBUG_LOG, _htmlColor, name, message);
@@ -88,7 +82,6 @@ namespace PlayableDesign
             Debug.Break();
 #endif
         }
-
 
         #endregion
 
