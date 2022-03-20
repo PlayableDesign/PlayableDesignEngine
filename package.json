@@ -1,13 +1,13 @@
 {
   "name": "playabledesign.engine",
-  "displayName": "Playable Design - Engine",
+  "displayName": "Playable Engine",
   "version": "1.0.0-pre.1",
-  "unity": "2020.3",
+  "unity": "2021.2",
   "unityRelease": "",
-  "description": "Core Unity scripts, scriptable objects, events, script templates",
+  "description": "Core game scripts, scriptable objects, and assets to expedite game development.",
   "license": "MIT",
   "author": {
-    "name": "Steve Mcilwain",
+    "name": "Playable Design",
     "email": "support@playable.design",
     "url": "https://playable.design"
   },
