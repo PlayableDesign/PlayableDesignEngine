@@ -2,7 +2,7 @@
 using PlayableDesign.Events;
 using UnityEditor;
 
-namespace PlayableDesign
+namespace PlayableDesign.Events.Editors
 {
     [CustomEditor(typeof(FloatGameEvent))]
     public class FloatGameEventEditor : GameEventEditor<float> { }
