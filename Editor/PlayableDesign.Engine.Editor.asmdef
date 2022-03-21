@@ -1,6 +1,6 @@
 {
     "name": "PlayableDesign.Engine.Editor",
-    "rootNamespace": "PlayableDesign.Editor",
+    "rootNamespace": "PlayableDesign",
     "references": [
         "PlayableDesign.Engine"
     ],

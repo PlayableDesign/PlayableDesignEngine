@@ -1,8 +1,6 @@
-
-using UnityEngine;
-
 namespace PlayableDesign.Events
 {
+    [System.Serializable]
     public class TimerArg
     {
         public TimerArg(float time, float elapsed, float remaining)
